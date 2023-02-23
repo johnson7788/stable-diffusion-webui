@@ -82,7 +82,7 @@ def extract_opt(args, name):
 def run(command, desc=None, errdesc=None, custom_env=None, live=False):
     if desc is not None:
         print(desc)
-
+    print(f"命令是: {command}")
     if live:
         result = subprocess.run(command, shell=True, env=os.environ if custom_env is None else custom_env)
         if result.returncode != 0:
