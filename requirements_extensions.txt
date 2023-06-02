@@ -1,0 +1,8 @@
+open_clip
+open-clip-torch
+clip
+segment_anything
+dynamicprompts
+send2trash
+clip_interrogator
+gdown
